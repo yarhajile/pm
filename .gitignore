@@ -1,0 +1,37 @@
+puphpet/config-custom.yaml
+/web/uploads/*
+/bin/
+/composer.phar
+
+/puphpet/files/dot/ssh/*
+!/puphpet/files/dot/ssh/insecure_private_key
+
+
+# IDE files
+.idea
+.vagrant
+.DS_Store
+/components/
+.nano
+.composer
+.bash_history
+_
+
+# Seployment settings
+build.properties/.web-server-pid
+/app/config/parameters.yml
+/build/
+/phpunit.xml
+/var/*
+!/var/cache
+/var/cache/*
+!var/cache/.gitkeep
+!/var/logs
+/var/logs/*
+!var/logs/.gitkeep
+!/var/sessions
+/var/sessions/*
+!var/sessions/.gitkeep
+!var/SymfonyRequirements.php
+/vendor/
+/web/bundles/
